@@ -1,0 +1,4 @@
+{
+  "gamerule.shouldZombiesRaid": "Spawn Zombie Sieges",
+  "gamerule.shouldZombiesRaid.description": "Toggles Zombie Sieges on Villages"
+}

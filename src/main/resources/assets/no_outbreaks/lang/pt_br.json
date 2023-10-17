@@ -1,0 +1,4 @@
+{
+  "gamerule.shouldZombiesRaid": "Permitir Ataques de Zumbis",
+  "gamerule.shouldZombiesRaid.description": "Ativa ou desativa os ataques de zumbis em aldeias"
+}

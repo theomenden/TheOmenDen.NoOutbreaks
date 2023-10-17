@@ -1,0 +1,4 @@
+{
+  "gamerule.shouldZombiesRaid": "Autoriser les attaques de zombies",
+  "gamerule.shouldZombiesRaid.description": "Active ou désactive les attaques de zombies dans les villages"
+}

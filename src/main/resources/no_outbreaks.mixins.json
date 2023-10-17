@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.theomenden.no_outbreaks.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "VillageSiegeMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

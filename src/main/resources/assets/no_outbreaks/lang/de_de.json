@@ -1,0 +1,4 @@
+{
+  "gamerule.shouldZombiesRaid": "Zombies belagern lassen",
+  "gamerule.shouldZombiesRaid.description": "Aktiviert Zombiebelagerungen in Dörfern"
+}

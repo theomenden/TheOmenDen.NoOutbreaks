@@ -1,0 +1,4 @@
+{
+  "gamerule.shouldZombiesRaid": "Permitir asedios de zombis",
+  "gamerule.shouldZombiesRaid.description": "Activa o desactiva los asedios de zombis en los pueblos"
+}

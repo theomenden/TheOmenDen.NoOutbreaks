@@ -1,4 +1,4 @@
-# TheOmenDen.NoOutbreaks
+# No Outbreaks!
 A mod to prevent zombie sieges in Minecraft
 
 * This mod is a pretty simple, naive implementation that should prevent zombie siege events from happening to your villages. 

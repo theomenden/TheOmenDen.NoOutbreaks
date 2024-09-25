@@ -1,9 +1,41 @@
 pluginManagement {
     repositories {
         maven {
-            name = 'Fabric'
-            url = 'https://maven.fabricmc.net/'
+            name = "Architectury"
+            url = "https://maven.architectury.dev/"
+        }
+
+        maven {
+            name = "Fabric"
+            url = "https://maven.fabricmc.net/"
+        }
+
+        maven {
+            name ="NeoForge"
+            url = "https://maven.neoforged.net/releases"
+        }
+        maven {
+            name = "Jamalam's Maven"
+            url = "https://maven.jamalam.tech/releases"
+
+            content {
+                includeGroup "io.github.jamalam360"
+            }
         }
         gradlePluginPortal()
     }
 }
+
+dependencyResolutionManagement {
+    versionCatalogs {
+        create("libs") {
+            from(files("libs.versions.toml"))
+        }
+    }
+}
+
+rootProject.name = "nooutbreaks"
+
+include("common")
+include("fabric")
+include("neoforge")

@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "nooutbreaks",
+  "version": "${version}",
+  "name": "No Outbreaks",
+  "description": "Prevent those zombie sieges",
+  "authors": [
+    "Andy Beers (Alu)"
+  ],
+  "contact": {
+    "sources": "https://github.com/theomenden/No Outbreaks",
+    "issues": "https://github.com/theomenden/No Outbreaks/issues"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.theomenden.nooutbreaks.fabric.NoOutbreaksFabric"
+    ]
+  },
+  "mixins": [
+    "nooutbreaks.mixins.json"
+  ],
+  "depends": {
+    "fabric-api": ">=${fabric_api_version}",
+    "minecraft": ">=${minecraft_version}",
+    "architectury-api": ">=${architectury_version}",
+    "jamlib": ">=${jamlib_version}"
+  },
+  "custom": {
+    "mc-publish": {
+      "modrinth": "RL9joWo1",
+      "curseforge": 930890
+    },
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/GWshtCqEx4"
+      },
+      "update_checker": true
+    }
+  }
+}

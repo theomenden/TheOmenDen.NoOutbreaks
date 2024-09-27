@@ -7,9 +7,9 @@ license = "MIT"
 modId = "nooutbreaks"
 version = "${file.jarVersion}"
 displayName = "No Outbreaks!"
-authors = "Alu"
+authors = "Andy Beers (Alu)"
 description = '''
-A simple fabric mod to allow for configurations of boss bars
+A simple mod to prevent zombie sieges in Minecraft.
 '''
 logoFile = "icon.png"
 

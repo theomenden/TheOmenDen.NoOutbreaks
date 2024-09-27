@@ -3,24 +3,24 @@ on:
   workflow_dispatch:
     inputs:
       mc_version:
-      description: 'Minecraft Version'
-      required: true
-      type: 'string'
-      default: '1.21.1'
-    mod_version:
-      description: 'Mod Version'
-      required: true
-      type: 'string'
-      default: '0.5.0'
-    version_type:
-      description: 'Version Type'
-      required: true
-      type: 'choice'
-      options:
-        - 'alpha'
-        - 'beta'
-        - 'release'
-    default: 'release'
+        description: 'Minecraft Version'
+        required: true
+        type: 'string'
+        default: '1.21.1'
+      mod_version:
+        description: 'Mod Version'
+        required: true
+        type: 'string'
+        default: '0.5.0'
+      version_type:
+        description: 'Version Type'
+        required: true
+        type: 'choice'
+        options:
+          - 'alpha'
+          - 'beta'
+          - 'release'
+        default: 'release'
 env:
   JAVA_VERSION: 21
   VERSION_TITLE: "${{inputs.mc_version}}+${{inputs.mod_version}}-${{inputs.version_type}}"
